@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Görünmez Engeller B — SİYAMDER Ankara</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root{ --petrol:#6A909B; --petrol-koyu:#4E6B75; --sari:#EDB43A; --zemin:#F4F3EF; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px;overflow:hidden;background:var(--petrol-koyu)}
+  .poster{position:relative;width:1080px;height:1350px;background:var(--petrol-koyu);font-family:'Montserrat',sans-serif;color:#fff}
+  .layer{position:absolute;inset:0}
+  .logo{position:absolute;top:66px;left:50%;transform:translateX(-50%);width:370px}
+  .gun{position:absolute;top:208px;left:0;right:0;text-align:center}
+  .gun .t{font-weight:800;font-size:34px;letter-spacing:.34em;color:var(--sari)}
+  .gun .g{font-weight:600;font-size:21px;letter-spacing:.36em;margin-top:6px;color:#E6EEF0}
+  /* kelime bulutu */
+  .bulut{position:absolute;left:0;top:0;width:1080px;height:1350px;font-family:'Nunito',sans-serif;font-weight:800}
+  .bulut span{position:absolute;white-space:nowrap;line-height:1}
+  .kart{position:absolute;left:120px;top:452px;width:840px;height:388px;background:var(--zemin);border-radius:44px;
+    box-shadow:0 18px 40px rgba(20,40,48,.25)}
+  .kart .kuyruk{position:absolute;left:96px;bottom:-40px}
+  .kart .ust{position:absolute;top:44px;left:0;right:0;text-align:center;font-weight:800;font-size:112px;letter-spacing:.01em;
+    color:var(--petrol);opacity:.28;line-height:1}
+  .kart .ana{position:absolute;top:146px;left:0;right:0;text-align:center;font-weight:800;font-size:112px;color:var(--petrol-koyu);line-height:1}
+  .kart .alt{position:absolute;top:286px;left:50%;transform:translateX(-50%);white-space:nowrap;font-weight:700;font-size:27px;
+    letter-spacing:.07em;color:var(--petrol-koyu);background:var(--sari);padding:12px 30px;border-radius:30px}
+  .konuk{position:absolute;left:196px;top:880px;display:flex;align-items:center;gap:20px}
+  .konuk .metin{font-family:'Nunito',sans-serif;line-height:1.15}
+  .konuk .metin b{display:block;font-size:30px;font-weight:800}
+  .konuk .metin span{display:block;font-size:24px;font-weight:700;color:#DDE7E9}
+  .bilgi{position:absolute;top:1052px;left:0;right:0;text-align:center;font-family:'Nunito',sans-serif;font-weight:800}
+  .bilgi .t{font-size:46px}
+  .bilgi .t em{font-style:normal;color:var(--sari);padding:0 8px}
+  .bilgi .p{font-size:38px;color:var(--sari);margin-top:4px}
+  .erisim{position:absolute;top:1200px;left:0;right:0;display:flex;justify-content:center;gap:28px;font-family:'Nunito',sans-serif;
+    font-weight:700;font-size:20px;color:#E6EEF0}
+  .erisim span{display:flex;align-items:center;gap:8px}
+  .footer{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;white-space:nowrap;
+    font-family:'Nunito',sans-serif;font-weight:700;font-size:19px;color:#fff;background:rgba(255,255,255,.12);padding:10px 26px;border-radius:30px}
+  .footer svg{height:19px;width:auto}
+</style>
+</head>
+<body>
+<div class="poster">
+
+  <svg class="layer" viewBox="0 0 1080 1350" aria-hidden="true">
+    <defs>
+      <filter id="doku"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="3"/>
+        <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .05 0"/></filter>
+    </defs>
+    <!-- yumuşak organik formlar -->
+    <path d="M-80 980 C 80 900, 160 1060, 120 1180 S 160 1400, -60 1420 Z" fill="#5A7A84"/>
+    <path d="M1160 140 C 980 120, 920 300, 1010 380 S 1180 470, 1180 420 Z" fill="#5A7A84"/>
+    <circle cx="1075" cy="1335" r="125" fill="none" stroke="var(--sari)" stroke-width="26" opacity=".9"/>
+    <circle cx="70" cy="300" r="10" fill="var(--sari)"/>
+    <g fill="#8FAAB2" opacity=".55">
+      <circle cx="880" cy="980" r="5"/><circle cx="905" cy="980" r="5"/><circle cx="930" cy="980" r="5"/><circle cx="955" cy="980" r="5"/>
+      <circle cx="880" cy="1005" r="5"/><circle cx="905" cy="1005" r="5"/><circle cx="930" cy="1005" r="5"/><circle cx="955" cy="1005" r="5"/>
+      <circle cx="880" cy="1030" r="5"/><circle cx="905" cy="1030" r="5"/><circle cx="930" cy="1030" r="5"/><circle cx="955" cy="1030" r="5"/>
+    </g>
+    <rect width="1080" height="1350" filter="url(#doku)"/>
+    <!-- kâğıt uçak + kesik rota -->
+    <path d="M-10 820 C 40 760, 70 700, 60 640 S 80 520, 150 470" fill="none" stroke="#C9D7DB" stroke-width="3" stroke-dasharray="9 11" stroke-linecap="round" opacity=".8"/>
+    <g transform="translate(118 444) rotate(-38)" fill="none" stroke="#fff" stroke-width="3.2" stroke-linejoin="round">
+      <path d="M0 0 L96 -26 L36 21 Z" fill="var(--petrol)"/><path d="M36 21 L41 43 L53 10"/><path d="M96 -26 L36 21"/>
+    </g>
+  </svg>
+
+  <img class="logo" src="siyamder-ankara-logo-beyaz.png" alt="SİYAMDER Ankara Yerel Kurulu">
+
+  <div class="gun"><div class="t">3 ARALIK</div><div class="g">DÜNYA ENGELLİLER GÜNÜ</div></div>
+
+  <!-- kelime bulutu: etkinlikteki kelime bulutu bölümüne gönderme -->
+  <div class="bulut" aria-hidden="true">
+    <span style="left:92px;top:318px;font-size:30px;color:#fff;opacity:.9">eşitlik</span>
+    <span style="left:262px;top:300px;font-size:22px;color:#C9D7DB">önyargı</span>
+    <span style="left:396px;top:330px;font-size:40px;color:var(--sari)">erişilebilirlik</span>
+    <span style="left:700px;top:306px;font-size:24px;color:#C9D7DB">empati</span>
+    <span style="left:836px;top:326px;font-size:32px;color:#fff;opacity:.9">dil</span>
+    <span style="left:905px;top:296px;font-size:20px;color:#C9D7DB">saygı</span>
+    <span style="left:212px;top:380px;font-size:23px;color:#C9D7DB">iyi niyet</span>
+    <span style="left:340px;top:394px;font-size:20px;color:#fff;opacity:.75">katılım</span>
+    <span style="left:470px;top:386px;font-size:27px;color:#fff;opacity:.95">hak temelli</span>
+    <span style="left:670px;top:384px;font-size:21px;color:#C9D7DB">görünürlük</span>
+    <span style="left:830px;top:380px;font-size:25px;color:var(--sari);opacity:.9">kapsayıcılık</span>
+    <span style="left:700px;top:906px;font-size:22px;color:#C9D7DB">farkındalık</span>
+    <span style="left:740px;top:950px;font-size:28px;color:#fff;opacity:.85">birlikte</span>
+  </div>
+
+  <div class="kart">
+    <div class="ust">GÖRÜNMEZ</div>
+    <div class="ana">ENGELLER</div>
+    <div class="alt">SAĞLAMCILIK ÜZERİNE BİR SOHBET</div>
+    <svg class="kuyruk" width="70" height="46" viewBox="0 0 70 46"><path d="M0 0 H70 L10 46 Z" fill="var(--zemin)"/></svg>
+  </div>
+
+  <div class="konuk">
+    <svg width="96" height="96" viewBox="0 0 96 96" aria-hidden="true">
+      <circle cx="48" cy="48" r="45" fill="#5A7A84" stroke="#fff" stroke-width="3" stroke-dasharray="8 7"/>
+      <text x="48" y="64" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="46" fill="var(--sari)">?</text>
+    </svg>
+    <div class="metin"><b>Konuğumuz</b><span>çok yakında açıklanacak</span></div>
+  </div>
+
+  <div class="bilgi">
+    <div class="t">3 Aralık Perşembe<em>|</em>20.00</div>
+    <div class="p">Zoom</div>
+  </div>
+
+  <div class="erisim">
+    <span><svg width="30" height="20" viewBox="0 0 30 20"><rect x="1" y="1" width="28" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><text x="15" y="14.5" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="11" fill="currentColor">CC</text></svg>Altyazı</span>
+    <span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9v6h4l5 4V5L8 9z" fill="currentColor"/><path d="M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12"/></svg>Sesli betimleme</span>
+    <span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="4" r="2" fill="currentColor"/><path d="M5 8l7 1.5L19 8M12 9.5V15l-3 6M12 15l3 6"/></svg>Erişilebilir buluşma</span>
+  </div>
+
+  <div class="footer">
+    <span>www.siyamder.org.tr</span>
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 11v2.4h3.9c-.2 1-1.3 3-3.9 3-2.4 0-4.3-2-4.3-4.4S9.6 7.6 12 7.6c1.3 0 2.3.6 2.8 1l1.9-1.8C15.5 5.7 13.9 5 12 5a7 7 0 1 0 0 14c4 0 6.7-2.8 6.7-6.8l-.1-1.2z"/></svg>
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 8V6.5c0-.7.2-1 1.1-1H17V2h-2.8C11.6 2 10.6 3.5 10.6 6v2H8.5v3.4h2.1V22H14V11.4h2.6l.4-3.4z"/></svg>
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.5z"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M16.5 11.5c-.3-3-2-4.5-4.5-4.5-2.8 0-4.5 2.2-4.5 5s1.7 5 4.5 5c2.4 0 3.8-1.3 3.8-3s-1.4-2.6-3.2-2.6c-1.6 0-2.6.9-2.6 2 0 1 .8 1.7 2 1.7 2.6 0 3.600-2.8 2.6-5.5"/><path d="M19.5 9C18.4 4.9 15.6 3 12 3 7 3 4 6.6 4 12s3 9 8 9c3.4 0 6-1.7 7-4.6"/></svg>
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 9h3.6v11H4zM5.8 3.5a2.1 2.1 0 1 1 0 4.2 2.1 2.1 0 0 1 0-4.2M9.8 9h3.4v1.5c.5-.9 1.7-1.8 3.5-1.8 3.7 0 4.3 2.4 4.3 5.5V20h-3.6v-5.2c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V20H9.8z"/></svg>
+    <svg viewBox="0 0 30 22"><rect width="30" height="22" rx="6" fill="currentColor"/><path d="M12 6.5v9l8-4.5z" fill="var(--petrol-koyu)"/></svg>
+    <span>/siyamder</span>
+  </div>
+</div>
+</body>
+</html>
