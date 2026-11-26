@@ -1,4 +1,4 @@
-# SİYAMDER Kurumsal Tasarım Rehberi — Taslak v0.2
+# SİYAMDER Kurumsal Tasarım Rehberi — Taslak v0.3
 
 > Durum: **Taslak.** Kaynaklar: 10 ekran görüntüsü + @siyamderankara profilinin
 > 81 sn'lik ekran kaydı (yaklaşık Şubat–Aralık 2025, ~60 paylaşım).
@@ -78,12 +78,14 @@ Değerler görsellerden örneklenmiş yaklaşık değerlerdir. `[ONAY BEKLİYOR]
 - Bir afişte en fazla 2 aile + 1 script.
 - Sıkışık (condensed) başlık yalnızca Gençlik Kampı ve 2025 Hatıralarımız'da görüldü `[ONAY BEKLİYOR]`.
 
-## 5. Format
+## 5. Format — ONAYLANDI (26.11.2026)
 
-- **Kare 1:1 — 1080×1080** ve **dikey 4:5 — 1080×1350** ikisi de kullanılıyor. Yeni tasarımlarda **4:5 önerilir** (akışta daha çok yer kaplar) `[ONAY BEKLİYOR]`.
-- **Carousel (çoklu görsel):** duyuru afişi + detay sayfası (Kamuoyu 2/2: kurallar metni), etkinlik sonrası foto/ekran görüntüsü sayfaları, yıl sonu albümü (1/13).
-- **Reels 9:16 — 1080×1920:** etkinlik görüntüleri + müzik + kısa yazı. Şu an CapCut ile, marka şablonu yok → HyperFrames ile şablonlanabilir.
-- Güvenli alan ~%7; footer alta ≈ 50 px.
+- **Tüm tasarımlar Instagram post formatında üretilir.**
+- **Varsayılan: dikey 4:5 — 1080×1350 px.** Gerekirse kare 1:1 — 1080×1080 px.
+- Çok sayfalı paylaşım (carousel) gerekiyorsa tüm sayfalar aynı ölçüde.
+- Profil ızgarasında kırpılma: ızgara görünümü ortadaki 3:4 alanı gösterir → başlık ve logo üst-alt kenara fazla yaklaşmamalı.
+- Güvenli alan: kenarlardan ~75 px; footer alta ≈ 50 px.
+- Çıktı: PNG (sRGB). Reels/story bu kapsamın dışında; ayrıca istenirse yapılır.
 
 ## 6. Şablon Ailesi
 
@@ -190,7 +192,6 @@ Her seri kendi küçük görsel imzasını taşır; yeni tasarımlar seriye sad�
 | Yerel birim adı | Yerel Kurulu / Ekibi | Tek kalıp |
 | Başlık fontu | Geometrik sans çoğunlukta; condensed istisnalar | Tek başlık ailesi |
 | Footer | Etkinlik/duyuruda var, özel günde yok | Etkinlikte zorunlu, özel günde opsiyonel |
-| Format | 1:1 ve 4:5 karışık | 4:5 standart |
 
 ## 11. Tasarım Öncesi Kontrol Listesi
 
@@ -211,4 +212,4 @@ Her seri kendi küçük görsel imzasını taşır; yeni tasarımlar seriye sad�
 
 | Tarih | Karar | Onaylayan |
 |---|---|---|
-| — | — | — |
+| 26.11.2026 | Tasarımlar Instagram post formatında; varsayılan 4:5 (1080×1350), gerekirse 1:1 | Kullanıcı |
