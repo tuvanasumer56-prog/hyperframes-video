@@ -213,3 +213,4 @@ Her seri kendi küçük görsel imzasını taşır; yeni tasarımlar seriye sad�
 | Tarih | Karar | Onaylayan |
 |---|---|---|
 | 26.11.2026 | Tasarımlar Instagram post formatında; varsayılan 4:5 (1080×1350), gerekirse 1:1 | Kullanıcı |
+| 26.11.2026 | Geri bildirim: koyu petrol zeminli tasarım beğenilmedi (renk/genel hava). Etkinlik afişlerinde krem zemin + konuk odaklı klasik düzen (Yetkinlik Aktarımı tarzı) tercih edilir | Kullanıcı |
