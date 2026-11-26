@@ -1,6 +1,7 @@
-# SİYAMDER Kurumsal Tasarım Rehberi — Taslak v0.1
+# SİYAMDER Kurumsal Tasarım Rehberi — Taslak v0.2
 
-> Durum: **Taslak.** 10 Instagram paylaşımının (Ekim–Aralık 2025) analizinden çıkarıldı.
+> Durum: **Taslak.** Kaynaklar: 10 ekran görüntüsü + @siyamderankara profilinin
+> 81 sn'lik ekran kaydı (yaklaşık Şubat–Aralık 2025, ~60 paylaşım).
 > Resmî kurumsal kimlik dosyası henüz incelenmedi. `[ONAY BEKLİYOR]` işaretli maddeler
 > dernek tarafından doğrulanana kadar kesin kural sayılmaz.
 > Her yeni tasarımdan önce bu dosya okunur; onaylanan kurallar buraya işlenir.
@@ -10,22 +11,29 @@
 ## 1. Kurum
 
 - **Ad:** SİYAMDER — Sivil Yaşam Derneği
-- **Yapı:** Genel merkez + yerel kurullar (görülenler: Ankara, Mersin, Sakarya; ayrıca Adıyaman hesabı)
+- **Yapı:** Genel merkez + yerel birimler. Görülenler: Ankara, Mersin, Sakarya, Adıyaman ("YEREL KURULU");
+  Gaziantep ("GAZİANTEP EKİBİ"); Karaman, Bingöl hesapları.
 - **Web / sosyal:** `www.siyamder.org.tr` · tüm platformlarda `/siyamder`
-- **Odak alanları (paylaşımlardan):** gençlik, kişisel-mesleki gelişim, psikolojik sağlam­lık,
-  sağlık/beslenme, kültür, çevre (fidan), kapsayıcılık/engelli hakları, çocuk hakları, Avrupa fırsatları
+- **Odak alanları:** gençlik, kişisel-mesleki gelişim, dijital yetkinlik / yapay zekâ, münazara-kamuoyu,
+  psikolojik sağlamlık, beslenme, kültür, çevre-döngüsel ekonomi, kapsayıcılık, çocuk ve insan hakları,
+  Avrupa fırsatları (Erasmus+/SALTO/Eurodesk), milli ve manevi günler.
+- **Sık paydaşlar:** GSB Gençlik Merkezleri (Mamak, Keçiören, Saraçoğlu), Türkiye Ulusal Ajansı, Eurodesk,
+  Gençlik İstasyonu, Habitat, Genç Eksen Derneği, İnnobot, GEN-2030, HBV Gurme Topluluğu, Tarım ve Orman Bak./OGM.
 
 ## 2. Logo
 
-- Wordmark: **SİYAMDER**; "A" harfi yatay çizgisi olmayan, kâğıt uçak / ok ucu biçimli bir üçgen.
-- Yerel kurul versiyonu: wordmark'ın altında **"ANKARA YEREL KURULU"** gibi alt satır
-  (büyük harf, ince/orta ağırlık; Mersin örneğinde harf aralığı açık).
-- Genel merkez paylaşımlarında (özel günler) alt satırsız tek wordmark.
-- Renk: ana petrol-gri tonu (bkz. §3). Koyu zeminde beyaz versiyon (profil görseli).
-- Yerleşim: üst-orta. Ortak kurum logosu varsa **sağında**, aynı yükseklik hattında;
-  birden fazla paydaş varsa logolar tek satırda yan yana (Gençlik Kampı) veya alt şeritte (Yeşil Vatan).
-- **Kural:** Logo yeniden çizilmez, rengi değiştirilmez, gerilmez, efekt eklenmez.
-  `[ONAY BEKLİYOR]` Orijinal SVG/PNG dosyaları ve koruma alanı ölçüsü.
+- Wordmark **SİYAMDER**; "A" harfi yatay çizgisiz, kâğıt uçak / ok ucu biçimli üçgen.
+- **Yerel birim versiyonu:** wordmark altında `ANKARA YEREL KURULU` gibi alt satır. Gaziantep'te `GAZİANTEP EKİBİ`.
+  `[ONAY BEKLİYOR]` "Ekibi" ile "Yerel Kurulu" farkı resmî mi?
+- **Genel merkez versiyonu:** alt satırsız (özel günler, repost'lar, kampanyalar).
+- **Renk versiyonları:** petrol (açık zeminde, ana), **beyaz** (petrol, koyu veya fotoğraflı zeminde — 18 Mart, 6 Şubat, Proje Avcıları).
+- **Yerleşim:**
+  - Etkinlik afişi → üst-orta, paydaş logosu sağında aynı hatta (veya solunda + sağında).
+  - Özel gün / anma → üst-orta **ya da** alt-orta (koyu temalarda genelde alt).
+  - Kolaj / anı paylaşımı → alt-orta.
+  - Çok paydaşlı → logolar tek satırda üstte veya ayrı beyaz şeritte altta.
+- **Kural:** Logo yeniden çizilmez, rengi değiştirilmez (petrol/beyaz dışı), gerilmez, efekt eklenmez.
+  `[ONAY BEKLİYOR]` Orijinal SVG/PNG dosyaları ve koruma alanı.
 
 ## 3. Renk Paleti
 
@@ -33,40 +41,51 @@ Değerler görsellerden örneklenmiş yaklaşık değerlerdir. `[ONAY BEKLİYOR]
 
 | Rol | Ad | HEX (yaklaşık) | Kullanım |
 |---|---|---|---|
-| Ana | SİYAMDER Petrol | `#6A909B` | Logo, isim etiketi (pill), ikonlar, başlık |
-| Ana koyu | Derin Petrol | `#55707A` | Ana başlıklar, tarih/saat metni, footer |
-| Vurgu | Hardal Sarı | `#EDB43A` | Alt başlık veya ana başlık vurgusu, tarih satırı, yıldızlar |
-| Vurgu açık | Açık Sarı | `#F2C760` | Fırça darbesi şeritleri, büyük dolgu alanları |
-| Zemin | Kırık Beyaz | `#F4F3EF` | Ana zemin (çoğunlukla dokulu) |
-| Destek | Açık Petrol | `#B4C3C7` | İllüstrasyon gölgeleri, ikincil şekiller |
+| Ana | SİYAMDER Petrol | `#6A909B` | Logo, isim etiketi, ikon, başlık, petrol zemin |
+| Ana koyu | Derin Petrol | `#55707A` | Başlıklar, tarih/saat, footer |
+| Vurgu | Hardal Sarı | `#EDB43A` | Başlık vurgusu, tarih satırı, çerçeve, yıldız |
+| Vurgu açık | Açık Sarı | `#F2C760` | Fırça şeritleri, büyük dolgu alanları |
+| Zemin | Kırık Beyaz | `#F4F3EF` | Ana zemin (dokulu) |
+| Destek | Açık Petrol | `#B4C3C7` | İllüstrasyon gölgesi, ikincil şekil |
+| Seri vurgusu | Antik Altın | ~`#D9B865` | Yetkinlik Aktarımı serisi: devre çizgileri, ince altın başlık `[ONAY BEKLİYOR]` |
 
-**Oran:** ~%70 kırık beyaz zemin · ~%20 petrol · ~%10 sarı. Sarı hiçbir zaman baskın zemin değildir
-(istisna: genel merkezden gelen 3 Aralık gibi kampanya görselleri).
-**Yasak:** Neon, saf siyah zemin, palet dışı doygun renkler (konu illüstrasyonu hariç).
+**Oran:** ~%70 kırık beyaz · ~%20 petrol · ~%10 sarı.
+
+**Zemin varyantları (gözlenen):**
+- Kırık beyaz / dokulu kâğıt → standart.
+- **Tam petrol zemin** + beyaz metin + sarı çerçeve → duyuru/çağrı (24 Ocak Eğitim Günü, Proje Avcıları).
+- **Koyu (antrasit/siyah) + kırmızı** → anma ve milli günler (6 Şubat, 18 Mart). Kırmızı yalnızca bayrak/anma bağlamında.
+- Konu illüstrasyonu doygun renkli olabilir (dünya, eller, çiçek), ama metin ve logo daima palet içinde.
+
+**İstisnalar (kurum dili değil):** Genç Eksen "Kamuoyu" serisi (mavi/yeşil/pembe — paydaşın kimliği baskın),
+Öğretmenler Günü kara tahta yeşili, 3 Aralık sarı zemin (genel merkez kampanyası).
 
 ## 4. Tipografi
 
-`[ONAY BEKLİYOR]` Font adları doğrulanmadı; aşağıdakiler gözlemdir.
+`[ONAY BEKLİYOR]` Font adları doğrulanmadı.
 
 | Seviye | Gözlem | Örnek |
 |---|---|---|
-| Başlık | Geometrik/humanist sans, **kalın, BÜYÜK HARF** | KAYGI YÖNETİMİ, CALIFORNIA ROLL ATÖLYESİ |
-| Alt başlık | Aynı aile, daha küçük; ya sarı ya da harf aralığı açık | SİYAMDER YOLCULUĞU, ZİHİNSEL DAYANIKLILIK |
-| Bilgi satırı | Yuvarlak hatlı, kendine özgü kıvrık **"k"** harfli sans, orta-kalın | 6 Aralık Cumartesi \| 21.00 |
-| El yazısı vurgu | İnce script, sarı veya yeşil | *Kutlu Olsun*, *Biz de Sahadayız* |
-| Özel gün tarihi | Geniş harf aralıklı büyük harf | 2 0  K A S I M |
+| Başlık | Geometrik/humanist sans, **kalın, BÜYÜK HARF** | KAYGI YÖNETİMİ, MÜNAZARA 101 |
+| Alt başlık | Aynı aile, küçük; sarı veya açık harf aralıklı | SİYAMDER YOLCULUĞU |
+| İnce başlık (seri) | Aynı aile **light**, karışık harf | Dijital Yetkinlikler ve Yapay Zeka Atölyesi |
+| Bilgi satırı | Yuvarlak hatlı, kıvrık **"k"** harfli sans | 6 Aralık Cumartesi \| 21.00 |
+| El yazısı | İnce script, sarı/kırmızı/yeşil | *Kutlu Olsun*, *Anıyoruz*, *Mübarek Olsun* |
+| Özel gün tarihi | Geniş harf aralıklı büyük harf, çoğu zaman bant/kutu içinde | 1 0  A R A L I K |
+| Video yazısı (Reels) | Beyaz aralıklı BÜYÜK HARF + altında sarı kalın serif/display | SİYAMDER ANKARA / *Çekirdek Eğitim Programı* |
 
-- Türkçe karakterler (İ, Ş, Ğ, Ç, Ö, Ü) her fontta eksiksiz olmalı — büyük harfte **İ** noktası korunur.
+- Türkçe karakterler tam; büyük harfte **İ** noktası korunur.
 - Bir afişte en fazla 2 aile + 1 script.
-- Not: Gençlik Kampı afişindeki sıkışık (condensed) başlık fontu genel dilden ayrışıyor; tekrar kullanılmamalı `[ONAY BEKLİYOR]`.
+- Sıkışık (condensed) başlık yalnızca Gençlik Kampı ve 2025 Hatıralarımız'da görüldü `[ONAY BEKLİYOR]`.
 
 ## 5. Format
 
-- **Kare 1:1 — 1080×1080 px** (tüm feed paylaşımları).
-- `[ONAY BEKLİYOR]` Story (1080×1920) ve 4:5 şablon kullanılıyor mu?
-- Kenar güvenli alanı: ~%7 (≈ 75 px). Footer alt kenara ≈ 50 px.
+- **Kare 1:1 — 1080×1080** ve **dikey 4:5 — 1080×1350** ikisi de kullanılıyor. Yeni tasarımlarda **4:5 önerilir** (akışta daha çok yer kaplar) `[ONAY BEKLİYOR]`.
+- **Carousel (çoklu görsel):** duyuru afişi + detay sayfası (Kamuoyu 2/2: kurallar metni), etkinlik sonrası foto/ekran görüntüsü sayfaları, yıl sonu albümü (1/13).
+- **Reels 9:16 — 1080×1920:** etkinlik görüntüleri + müzik + kısa yazı. Şu an CapCut ile, marka şablonu yok → HyperFrames ile şablonlanabilir.
+- Güvenli alan ~%7; footer alta ≈ 50 px.
 
-## 6. Şablonlar
+## 6. Şablon Ailesi
 
 ### A. Etkinlik / Söyleşi Afişi (ana şablon)
 
@@ -74,88 +93,121 @@ Değerler görsellerden örneklenmiş yaklaşık değerlerdir. `[ONAY BEKLİYOR]
 ┌───────────────────────────────┐
 │   [SİYAMDER logo] [paydaş]    │  1 · Logo + yerel kurul (+ ortak kurum)
 │      ANKARA YEREL KURULU      │
-│                               │
-│     ETKİNLİK BAŞLIĞI          │  2 · Başlık (petrol) + alt başlık (sarı)
-│     ALT BAŞLIK                │      — renkler ters de kullanılabilir
-│                               │
-│        ( yuvarlak foto )      │  3 · Merkez görsel: konuşmacı fotoğrafı
-│        veya illüstrasyon      │      (daire çerçeve) ya da konu çizimi
-│      ╭ Ad SOYAD ─────────╮    │  4 · Petrol pill etiket, beyaz metin
+│     ETKİNLİK BAŞLIĞI          │  2 · Başlık (petrol) + alt başlık (sarı) — ters de olur
+│     ALT BAŞLIK                │
+│        ( yuvarlak foto )      │  3 · Konuşmacı fotoğrafı veya konu illüstrasyonu
+│      ╭ Ad SOYAD ─────────╮    │  4 · Petrol etiket / şerit, beyaz (veya sarı) metin
 │      ╰ Unvan ────────────╯    │
-│                               │
-│   6 Aralık Cumartesi | 21.00  │  5 · Tarih | saat (1. satır)
-│            ZOOM               │      Yer / platform (2. satır)
-│                               │
-│ www.siyamder.org.tr  ⓖⓕⓧ… /siyamder │  6 · Footer
+│   6 Aralık Cumartesi | 21.00  │  5 · Tarih | saat
+│            Zoom               │      Yer / platform
+│ www.siyamder.org.tr  ⓖⓕⓧ… /siyamder │  6 · Footer (bazen yuvarlak petrol kapsül içinde)
 └───────────────────────────────┘
 ```
 
-- Hiyerarşi her zaman: **logo → başlık → görsel → konuşmacı → tarih/yer → footer.**
-- Her şey ortalı, simetrik.
-- Konuşmacı adı: `Ad SOYAD` (soyad büyük harf), unvan kısaltması önde (`Dyt.`), görev alt satırda.
-- Tarih biçimi: `GG Ay Gün | SS.DD` — bkz. §9 tutarsızlık.
-- Çok satırlı bilgi gerektiğinde etiketli liste: `Tarih: … / Saat: … / Yer: …` (etiket petrol, değer sarı).
+- **Konuşmacı çerçeveleri:** daire + noktalı halka (Yetkinlik Aktarımı), daire + ince petrol halka (Ezel/Zeliha İlhan),
+  altıgen noktalı çerçeve (SALTO). Altında petrol etiket veya **kurdele şerit** (petrol zemin, sarı yazı: "Gönüllü Eğitmen").
+- **Bilgi bloğu iki biçimde:**
+  1. Satır: `6 Aralık Cumartesi | 21.00` + alt satırda yer.
+  2. Etiketli liste: `Tarih: … / Saat: … / Yer: …` (etiket petrol, değer sarı) — yüz yüze, uzun etkinliklerde.
 
-### B. Özel Gün / Kutlama
+### B. Etkinlik Sonrası (Recap) — "…Tamamlandı!"
 
-- Genel merkez wordmark'ı (yerel kurul alt satırı yok).
-- `20 KASIM` (aralıklı küçük başlık) → büyük başlık → sarı el yazısı vurgu (`Kutlu Olsun`).
-- Alt yarıda geniş, çok kişili, kapsayıcı düz (flat) illüstrasyon.
-- Footer genellikle yok.
+- Duyuru afişinin **aynı başlık ve süsleme sistemi** korunur; merkez görselin yerine fotoğraf veya Zoom ekran görüntüsü kolajı.
+- Ekran görüntüleri **sarı çerçeveli** kutularda, hafif üst üste/eğik yerleşim.
+- Carousel; son sayfada kapanış: "Bir sonraki etkinliklerde görüşmek dileğiyle 👋".
 
-### C. Kampanya / Paydaş Ortaklığı
+### C. Özel Gün / Kutlama
 
-- Paydaş logoları üstte satır veya altta beyaz şeritte; SİYAMDER logosu şeritte en sağda/sonda olabilir.
-- Footer isteğe bağlı.
+- Genel merkez wordmark'ı; `20 KASIM` aralıklı tarih → büyük başlık → script vurgu (`Kutlu Olsun`).
+- Geniş, kapsayıcı flat illüstrasyon veya suluboya (dünya, eller, çiçek, çocuk çizimleri).
 
-## 7. Görsel Dil
+### D. Anma / Milli Gün
 
-- **Zemin:** Kırık beyaz + doku (buruşuk kâğıt, kaba kâğıt, ince kıvrımlı çizgi desenleri, yumuşak dalga katmanları).
-- **İllüstrasyon:** Düz (flat) veya çizgi (line-art) — palete uyarlanmış, yüzleri sade/çizgisiz figürler.
-  İnsan figürlerinde çeşitlilik ve kapsayıcılık (tekerlekli sandalye, protez, farklı ten renkleri).
-- **Konu objeleri:** Fotoğraf ise dekupe (arka planı temizlenmiş), gölgeli, havada/dinamik (sushi örneği).
-- **Süs öğeleri (tekrarlayan):** ✦ dört köşeli yıldız/pırıltı (sarı + petrol), nokta matrisleri,
-  organik blob şekiller, ince kıvrımlı çizgiler, **kâğıt uçak** (logodaki A'ya gönderme — marka motifi olarak korunmalı),
-  ilerleme noktaları/yol çizgisi.
-- Konuşmacı fotoğrafı: daire kırpım, beyaz/sade arka plan, gerekirse noktalı halka çerçeve.
-- **Kaçınılacaklar:** Gradyan dolu "stok" görünüm, kalabalık kolaj, 3D/parlak efektler, gölgeli WordArt metin.
+- Koyu zemin veya bayrak fotoğrafı; beyaz kalın başlık, kırmızı script (`Anıyoruz`) veya kırmızı serif (23 Nisan).
+- Kısa, ağırbaşlı tek cümle: "Şehitlerimizi saygı ve rahmetle anıyoruz."
+- Beyaz logo, genelde alt-orta. Süsleme yok.
 
-## 8. İletişim Dili
+### E. Duyuru / Çağrı (başvuru)
 
-- **Ton:** Sıcak, davetkâr, umutlu, kapsayıcı; "biz" dili ("Biz de Sahadayız", "Gerçekleri Konuşuyoruz").
-- **Başlık formülü:** `Etkinlik Adı: Çekici Alt Başlık` → "Beslenme: Trendin Ötesi", "Kaygı Yönetimi: Zihinsel Dayanıklılık".
-- **Afiş metni:** Minimum — başlık, isim, tarih/yer. Açıklama afişte değil, gönderi metninde.
-- **Gönderi metni (caption):** Başlık + 1–2 emoji (✨ 🌟 konuya uygun 🧠 🥗 🍣) → kısa davet paragrafı → tarih/yer.
-  Ünlem ölçülü ("Ankara'da!✨", "Lezzetli Bir Deneyim!").
-- **Değer cümleleri:** "Farkındalığı yüksek bir toplum için, sevgi her şeyi mümkün kılar." /
-  "Sivil Yaşam Derneği olarak, kök salan her fidanla…" — kısa, duygulu, toplum odaklı.
-- Anma paylaşımlarında: sade ve ağırbaşlı ("Saygı ve özlemle").
-- Türkçe yazım kurallarına (TDK) tam uyum; kurum adı daima **SİYAMDER** (noktalı İ, tamamı büyük).
+- Tam petrol zemin **veya** kırık beyaz + büyük yuvarlak grup fotoğrafı.
+- Büyük başlık (`PROJE AVCILARI`, `15. ULUSAL TAKIM ÇAĞRISI`) + kapsül içinde `SON BAŞVURU: 11.01.2026`.
 
-## 9. Tespit Edilen Tutarsızlıklar (karar bekliyor)
+### F. Anı / Albüm (2025 Hatıralarımız)
+
+- Kırık beyaz zemin, üstte yıl başlığı, ortada 2 fotoğraf, altta logo; sayfa sayfa aynı ızgara.
+
+### G. Paydaş Ortak Paylaşımı
+
+- Paydaş etkinliği yönetiyorsa onun kimliği baskın olabilir; SİYAMDER logosu + yerel kurul altta paydaş logosuyla yan yana.
+  `[ONAY BEKLİYOR]` Bu esneklik kurumca kabul ediliyor mu?
+
+## 7. Seriler (tekrarlayan programlar)
+
+Her seri kendi küçük görsel imzasını taşır; yeni tasarımlar seriye sadık kalmalı.
+
+| Seri | Görsel imza |
+|---|---|
+| **Yetkinlik Aktarımı** | Altın başlık + petrol alt başlık, kâğıt uçak + kesik çizgi rotası, altın devre/altıgen çizgiler, noktalı halka |
+| **Çekirdek Eğitim Programı** | "derneğin kalbi"; izometrik çizgi illüstrasyon, sarı dalga köşe, Reels ile tanıtım |
+| **Münazara 101** | Sarı başlık, petrol-sarı kürsü illüstrasyonu, etiketli bilgi bloğu |
+| **Kişisel ve Mesleki Gelişim Eğitim Modülü** | Petrol-sarı soyut kafa/blob formu |
+| **Kurum Ziyaretleri** | Fotoğraf, sade; caption "Kurum Ziyaretlerimize Devam Ediyoruz" |
+| **Dijital Yetkinlikler ve YZ (Adıyaman)** | İkili kod (0/1) deseni zemin, ince başlık, petrol halkalı portre |
+
+## 8. Görsel Dil
+
+- **Zemin:** kırık beyaz + doku (buruşuk/kaba kâğıt, ince kıvrımlı çizgiler, dalgalar); seriye göre kod deseni, devre çizgisi.
+- **İllüstrasyon:** flat veya line-art, palete uyarlı, sade yüzlü figürler, çeşitlilik ve kapsayıcılık.
+- **Fotoğraf:** konuşmacı → yuvarlak kırpım; grup → yuvarlak veya köşeli, gerekirse sarı çerçeve; obje → dekupe.
+- **Tekrarlayan motifler:** **kâğıt uçak + kesik çizgi rota** (en güçlü marka motifi — logodaki A ile bağlantılı),
+  ✦ dört köşeli yıldız, nokta matrisi, organik blob, ince kıvrımlı çizgi, noktalı halka.
+- **Kaçınılacaklar:** palet dışı doygun metin renkleri, 3D/parlak efekt, gölgeli WordArt, aşırı kalabalık kolaj.
+
+## 9. İletişim Dili
+
+- **Ton:** sıcak, davetkâr, umutlu, kapsayıcı; "biz" dili. Gençlere doğrudan hitap edebilir:
+  "Hiç kendi fikrinin gerçekten değiştiği bir anı hatırlıyor musun?", "Jüri sensin, takım da sensin!"
+- **Başlık formülü:** `Etkinlik Adı: Alt Başlık` (Beslenme: Trendin Ötesi; Çocuk Hakları Günü: Çocukların Ruhsal İyilik Hakkı).
+- **Afiş metni:** minimum. Açıklama caption'da.
+- **Caption kalıpları:**
+  - Duyuru: `✨ Seri Adı: Etkinlik Adı ✨` + davet paragrafı.
+  - Sonrası: "… Tamamlandı! ✨", "… gerçekleştirdik", "Bir sonraki etkinliklerde görüşmek dileğiyle 👋".
+  - Süreklilik: "Kurum Ziyaretlerimize Devam Ediyoruz", "… geri sayımlar başladı".
+  - Kutlama: "Sevdiklerinizle birlikte sağlık, mutluluk ve barış dolu bir bayram geçirmeniz dileğiyle."
+  - Anma: "Şehitlerimizi saygı ve rahmetle anıyoruz." / "… yakınlarına baş sağlığı diliyoruz."
+  - Değer: "Farkındalığı yüksek bir toplum için, sevgi her şeyi mümkün kılar."
+- **Emoji:** ✨ (imza emojisi), 🌟 🎉 👋 🌍 🌱 + konuya özgü 1 tane. Anma paylaşımlarında emoji yok.
+- Kurum adı daima **SİYAMDER**; TDK yazımına uyum.
+
+## 10. Tespit Edilen Tutarsızlıklar (karar bekliyor)
 
 | Konu | Görülen varyantlar | Öneri |
 |---|---|---|
-| Saat ayracı | `21.00`, `20.00` / `19:00` | TDK'ya uygun **`21.00`** |
-| Platform yazımı | `ZOOM` / `Zoom` / `Google Meet (Çevrimiçi)` | Bilgi satırında **`Zoom`**, `Google Meet` (gerekirse "Çevrimiçi") |
-| Başlık fontu | Geometrik sans çoğunlukta; kamp afişinde condensed | Tek başlık ailesi |
-| Footer | Etkinliklerde var, özel günlerde yok | Etkinlikte zorunlu, özel günde opsiyonel |
-| Tarih rengi | Sarı veya petrol | Zemin açıksa petrol, büyük boşlukta sarı |
+| Tarih-saat ayracı | `\| 21.00`, `\| 19:00`, `/19.00`, `Zoom/20:00`, `19.00/Google Meet` | **`GG Ay Gün \| SS.DD`**, yer alt satırda |
+| Saat ayracı | `21.00` / `19:00` | TDK: **`21.00`** |
+| Platform | `ZOOM`, `Zoom`, `Meet`, `Google Meet`, `Google Meet (Çevrimiçi)` | **`Zoom`**, **`Google Meet`** |
+| "Yapay Zeka" | afişte "Zeka" | TDK: **"Zekâ"** `[ONAY BEKLİYOR]` |
+| Yerel birim adı | Yerel Kurulu / Ekibi | Tek kalıp |
+| Başlık fontu | Geometrik sans çoğunlukta; condensed istisnalar | Tek başlık ailesi |
+| Footer | Etkinlik/duyuruda var, özel günde yok | Etkinlikte zorunlu, özel günde opsiyonel |
+| Format | 1:1 ve 4:5 karışık | 4:5 standart |
 
-## 10. Tasarım Öncesi Kontrol Listesi
+## 11. Tasarım Öncesi Kontrol Listesi
 
-- [ ] Doğru logo (genel / doğru yerel kurul) üst-ortada, orijinal dosyadan
-- [ ] Yalnızca paletteki renkler; sarı ≤ %10–15
+- [ ] Şablon tipi belli (A–G) ve varsa seri imzası uygulandı
+- [ ] Doğru logo (genel / doğru yerel birim), doğru renk versiyonu (petrol/beyaz)
+- [ ] Yalnızca palet renkleri; kırmızı yalnızca anma/milli günde
 - [ ] Başlık BÜYÜK HARF, Türkçe karakterler doğru
 - [ ] Hiyerarşi: logo → başlık → görsel → kişi → tarih/yer → footer
 - [ ] Tarih `GG Ay Gün | SS.DD`, yer/platform ikinci satırda
 - [ ] Konuşmacı `Unvan Ad SOYAD` + görev
 - [ ] Footer: `www.siyamder.org.tr` + sosyal ikonlar + `/siyamder`
 - [ ] Paydaş logoları izinli ve doğru sürümde
-- [ ] Etkinliğe özgü yaratıcı bir görsel fikir var (şablonun kopyası değil)
-- [ ] Metin, derneğin sıcak ve kapsayıcı diline uygun
+- [ ] Etkinliğe özgü yaratıcı bir fikir var (şablon kopyası değil)
+- [ ] Recap paylaşımı duyurunun görsel sistemini sürdürüyor
+- [ ] Metin sıcak, kapsayıcı; caption kalıplarına uygun
 
-## 11. Onay Günlüğü
+## 12. Onay Günlüğü
 
 | Tarih | Karar | Onaylayan |
 |---|---|---|
