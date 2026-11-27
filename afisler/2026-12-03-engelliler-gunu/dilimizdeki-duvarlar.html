@@ -42,10 +42,10 @@
   .baslik2 .y{font-weight:800;font-size:58px;color:var(--sari);letter-spacing:.01em;transform:translateX(-20px);line-height:1.1}
   .baslik2 .p{font-weight:700;font-size:32px;color:var(--petrol-koyu);letter-spacing:.02em;transform:translateX(30px);margin-top:4px}
   .cember{position:absolute;left:0;top:0}
-  .pill{top:918px;padding:16px 52px 18px}
+  .pill{top:996px;padding:16px 52px 18px}
   .pill b{font-size:36px}
-  .bilgi{top:1060px}
-  .erisim{top:1206px}
+  .bilgi{top:1124px}
+  .erisim{top:1276px}
 </style>
 </head>
 <body>
@@ -55,7 +55,7 @@
       <filter id="doku"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" seed="7"/>
         <feColorMatrix values="0 0 0 0 .3  0 0 0 0 .3  0 0 0 0 .28  0 0 0 .06 0"/></filter>
       <filter id="golge" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#4E6B75" flood-opacity=".18"/></filter>
-      <clipPath id="foto"><circle cx="540" cy="738" r="205"/></clipPath>
+      <clipPath id="foto"><path d="M335 1028 V683 A205 205 0 0 1 745 683 V1028 Z"/></clipPath>
     </defs>
     <rect width="1080" height="1350" filter="url(#doku)"/>
     <g fill="none" stroke-width="2">
@@ -65,26 +65,26 @@
       <path d="M1140 60 C 820 160, 860 470, 1000 600 S 1100 900, 900 1100" stroke="#DCE3E4"/>
     </g>
     <!-- sol: onay işaretli ilerleme çizgisi, çembere bağlanır -->
-    <g transform="translate(110 738)">
-      <line x1="0" y1="0" x2="225" y2="0" stroke="var(--sari)" stroke-width="3.5"/>
+    <g transform="translate(96 873)">
+      <line x1="0" y1="0" x2="239" y2="0" stroke="var(--sari)" stroke-width="3.5"/>
       <circle cx="0" cy="0" r="17" fill="var(--sari)"/>
       <path d="M-8 0 l6 6 10 -12" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
       <circle cx="110" cy="0" r="14" fill="var(--zemin)" stroke="var(--sari)" stroke-width="3.5"/>
     </g>
-    <!-- noktalı yay -->
-    <g fill="var(--petrol)"><circle cx="315.2" cy="633.2" r="11.0"/><circle cx="333.0" cy="601.5" r="10.7"/><circle cx="355.1" cy="572.7" r="10.4"/><circle cx="381.3" cy="547.5" r="10.2"/><circle cx="410.8" cy="526.3" r="9.9"/><circle cx="443.1" cy="509.7" r="9.6"/><circle cx="477.5" cy="498.0" r="9.3"/><circle cx="513.2" cy="491.5" r="9.0"/><circle cx="549.5" cy="490.2" r="8.8"/><circle cx="585.6" cy="494.2" r="8.5"/><circle cx="620.7" cy="503.5" r="8.2"/><circle cx="654.1" cy="517.8" r="7.9"/><circle cx="685.1" cy="536.9" r="7.6"/><circle cx="712.9" cy="560.2" r="7.4"/><circle cx="737.0" cy="587.4" r="7.1"/><circle cx="756.9" cy="617.8" r="6.8"/><circle cx="772.1" cy="650.7" r="6.5"/><circle cx="782.4" cy="685.6" r="6.2"/><circle cx="787.5" cy="721.6" r="6.0"/><circle cx="787.2" cy="757.9" r="5.7"/><circle cx="781.6" cy="793.8" r="5.4"/><circle cx="770.9" cy="828.5" r="5.1"/><circle cx="755.2" cy="861.2" r="4.8"/><circle cx="734.9" cy="891.4" r="4.6"/><circle cx="710.4" cy="918.2" r="4.3"/><circle cx="682.2" cy="941.1" r="4.0"/></g>
-    <!-- fotoğraf çemberi (konuk belli olunca fotoğraf buraya) -->
-    <circle cx="540" cy="738" r="205" fill="#fff" filter="url(#golge)"/>
-    <image href="konuk-pelin.jpg" x="335" y="533" width="410" height="410" clip-path="url(#foto)" preserveAspectRatio="xMidYMid slice"/>
-    <circle cx="540" cy="738" r="205" fill="none" stroke="#fff" stroke-width="7"/>
+    <!-- noktalı yay (kemer çerçeveyi izler) -->
+    <g fill="var(--petrol)"><circle cx="303.0" cy="827.0" r="9.5"/><circle cx="303.0" cy="791.0" r="9.3"/><circle cx="303.0" cy="755.0" r="9.1"/><circle cx="303.0" cy="719.0" r="8.9"/><circle cx="303.0" cy="683.0" r="8.7"/><circle cx="305.9" cy="645.9" r="8.5"/><circle cx="314.6" cy="609.8" r="8.3"/><circle cx="328.8" cy="575.4" r="8.1"/><circle cx="348.3" cy="543.7" r="7.9"/><circle cx="372.4" cy="515.4" r="7.7"/><circle cx="400.7" cy="491.3" r="7.5"/><circle cx="432.4" cy="471.8" r="7.3"/><circle cx="466.8" cy="457.6" r="7.1"/><circle cx="502.9" cy="448.9" r="6.9"/><circle cx="540.0" cy="446.0" r="6.7"/><circle cx="577.1" cy="448.9" r="6.5"/><circle cx="613.2" cy="457.6" r="6.3"/><circle cx="647.6" cy="471.8" r="6.2"/><circle cx="679.3" cy="491.3" r="6.0"/><circle cx="707.6" cy="515.4" r="5.8"/><circle cx="731.7" cy="543.7" r="5.6"/><circle cx="751.2" cy="575.4" r="5.4"/><circle cx="765.4" cy="609.8" r="5.2"/><circle cx="774.1" cy="645.9" r="5.0"/><circle cx="777.0" cy="683.0" r="4.8"/><circle cx="777.0" cy="719.0" r="4.6"/><circle cx="777.0" cy="755.0" r="4.4"/><circle cx="777.0" cy="791.0" r="4.2"/><circle cx="777.0" cy="827.0" r="4.0"/><circle cx="777.0" cy="863.0" r="3.8"/><circle cx="777.0" cy="899.0" r="3.6"/><circle cx="777.0" cy="935.0" r="3.4"/><circle cx="777.0" cy="971.0" r="3.2"/><circle cx="777.0" cy="1007.0" r="3.0"/></g>
+    <!-- kemer fotoğraf çerçevesi -->
+    <path d="M335 1028 V683 A205 205 0 0 1 745 683 V1028 Z" fill="#fff" filter="url(#golge)"/>
+    <image href="konuk-pelin-genis.jpg" x="335" y="478" width="410" height="550" clip-path="url(#foto)" preserveAspectRatio="xMidYMin slice"/>
+    <path d="M335 1028 V683 A205 205 0 0 1 745 683 V1028 Z" fill="none" stroke="#fff" stroke-width="8"/>
     <!-- sağ: kâğıt uçak + kesik rota -->
     <path d="M880 430 C 940 410, 960 460, 1000 440 S 1060 380, 1100 400" fill="none" stroke="var(--petrol)" stroke-width="3" stroke-dasharray="10 11" stroke-linecap="round"/>
     <g transform="translate(770 470) rotate(-14)" fill="none" stroke="var(--petrol-koyu)" stroke-width="3.5" stroke-linejoin="round">
       <path d="M0 0 L118 -30 L44 26 Z" fill="#FBFAF7"/><path d="M44 26 L50 52 L65 12"/><path d="M118 -30 L44 26"/>
     </g>
     <!-- pırıltılar -->
-    <path d="M905 860 l7 22 22 7 -22 7 -7 22 -7 -22 -22 -7 22 -7z" fill="var(--sari)"/>
-    <path d="M950 930 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4z" fill="var(--petrol)"/>
+    <path d="M905 900 l7 22 22 7 -22 7 -7 22 -7 -22 -22 -7 22 -7z" fill="var(--sari)"/>
+    <path d="M950 970 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4z" fill="var(--petrol)"/>
   </svg>
 
   <img class="logo" src="siyamder-ankara-logo.png" alt="SİYAMDER Ankara Yerel Kurulu">
@@ -97,8 +97,8 @@
   <div class="pill"><b>Pelin PEKGÖZ SAY</b></div>
 
   <div class="bilgi">
-    <div class="t">3 Aralık Perşembe<em>|</em>20.00</div>
-    <div class="p">Zoom</div>
+    <div class="t">4 Aralık Cuma<em>|</em>20.00</div>
+    <div class="p">Google Meet</div>
   </div>
 
   <div class="erisim">
@@ -107,17 +107,6 @@
     <span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="4" r="2" fill="currentColor"/><path d="M5 8l7 1.5L19 8M12 9.5V15l-3 6M12 15l3 6"/></svg>Erişilebilir buluşma</span>
   </div>
 
-  <div class="footer">
-    <span>www.siyamder.org.tr</span>
-    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 11v2.4h3.9c-.2 1-1.3 3-3.9 3-2.4 0-4.3-2-4.3-4.4S9.6 7.6 12 7.6c1.3 0 2.3.6 2.8 1l1.9-1.8C15.5 5.7 13.9 5 12 5a7 7 0 1 0 0 14c4 0 6.7-2.8 6.7-6.8l-.1-1.2z"/></svg>
-    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 8V6.5c0-.7.2-1 1.1-1H17V2h-2.8C11.6 2 10.6 3.5 10.6 6v2H8.5v3.4h2.1V22H14V11.4h2.6l.4-3.4z"/></svg>
-    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.5z"/></svg>
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor"/></svg>
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M16.5 11.5c-.3-3-2-4.5-4.5-4.5-2.8 0-4.5 2.2-4.5 5s1.7 5 4.5 5c2.4 0 3.8-1.3 3.8-3s-1.4-2.6-3.2-2.6c-1.6 0-2.6.9-2.6 2 0 1 .8 1.7 2 1.7 2.6 0 3.6-2.8 2.6-5.5"/><path d="M19.5 9C18.4 4.9 15.6 3 12 3 7 3 4 6.6 4 12s3 9 8 9c3.4 0 6-1.7 7-4.6"/></svg>
-    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 9h3.6v11H4zM5.8 3.5a2.1 2.1 0 1 1 0 4.2 2.1 2.1 0 0 1 0-4.2M9.8 9h3.4v1.5c.5-.9 1.7-1.8 3.5-1.8 3.7 0 4.3 2.4 4.3 5.5V20h-3.6v-5.2c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V20H9.8z"/></svg>
-    <svg viewBox="0 0 30 22"><rect width="30" height="22" rx="6" fill="currentColor"/><path d="M12 6.5v9l8-4.5z" fill="var(--zemin)"/></svg>
-    <span>/siyamder</span>
-  </div>
 
 </div>
 </body>
